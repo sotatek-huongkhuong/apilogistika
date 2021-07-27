@@ -1,0 +1,9 @@
+logistika\test_suite\apiAuthentication\TS_Change_Email.class
+logistika\test_suite\apiAuthentication\TS_Refresh_Token.class
+logistika\test_suite\apiAuthentication\TS_Change_Password.class
+logistika\test_suite\apiAuthentication\TS_Reset_Password.class
+logistika\base\Base_Test.class
+logistika\test_suite\apiAuthentication\TS_Forgot_Password.class
+logistika\test_suite\apiAuthentication\TS_Logout.class
+logistika\test_suite\apiAuthentication\TS_Login.class
+logistika\test_suite\apiAuthentication\TS_Get_Token.class

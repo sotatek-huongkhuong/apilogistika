@@ -1,0 +1,118 @@
+{
+  "uid" : "e8587f520274ba60",
+  "name" : "TC002_enterWrongPassword",
+  "fullName" : "logistika.test_suite.apiAuthentication.TS_Login.TC002_enterWrongPassword",
+  "historyId" : "a1b5b111566355d4f6c9176590998eec",
+  "time" : {
+    "start" : 1626334548350,
+    "stop" : 1626334550703,
+    "duration" : 2353
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1626334544234,
+      "stop" : 1626334548294,
+      "duration" : 4060
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "initReqSpec",
+    "time" : {
+      "start" : 1626334544221,
+      "stop" : 1626334544225,
+      "duration" : 4
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "postconditions",
+    "time" : {
+      "start" : 1626334550714,
+      "stop" : 1626334550715,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "logistika.test_suite.apiAuthentication.TS_Login"
+  }, {
+    "name" : "testClass",
+    "value" : "logistika.test_suite.apiAuthentication.TS_Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC002_enterWrongPassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "logistika-api"
+  }, {
+    "name" : "subSuite",
+    "value" : "logistika.test_suite.apiAuthentication.TS_Login"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-ASB0HT8O"
+  }, {
+    "name" : "thread",
+    "value" : "13176@LAPTOP-ASB0HT8O.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9bdb134f577177ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626334377483,
+        "stop" : 1626334379904,
+        "duration" : 2421
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8587f520274ba60.json",
+  "parameterValues" : [ ]
+}

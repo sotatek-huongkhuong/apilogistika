@@ -1,0 +1,116 @@
+{
+  "uid" : "561f290ece062a05",
+  "name" : "TC003_enterPasswordWithLengthLessThan8",
+  "fullName" : "logistika.test_suite.apiAuthentication.TS_Login.TC003_enterPasswordWithLengthLessThan8",
+  "historyId" : "161df1f46052463b1541aaaf9e277f36",
+  "time" : {
+    "start" : 1626334382290,
+    "stop" : 1626334384663,
+    "duration" : 2373
+  },
+  "status" : "failed",
+  "statusMessage" : "expected:<[Incorrect username or password.]> but was:<[[Password must be 8 or more characters with at least one number, one symbol, password must be longer than or equal to 8 characters]]>",
+  "statusTrace" : "org.junit.ComparisonFailure: expected:<[Incorrect username or password.]> but was:<[[Password must be 8 or more characters with at least one number, one symbol, password must be longer than or equal to 8 characters]]>\r\n\tat org.junit.Assert.assertEquals(Assert.java:125)\r\n\tat org.junit.Assert.assertEquals(Assert.java:147)\r\n\tat logistika.microservices.apiAuthentication.login.steps.LoginSteps.verifyMessage(LoginSteps.java:42)\r\n\tat logistika.test_suite.apiAuthentication.TS_Login.TC003_enterPasswordWithLengthLessThan8(TS_Login.java:31)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\r\n\tat org.testng.TestRunner.run(TestRunner.java:596)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initReqSpec",
+    "time" : {
+      "start" : 1626334370406,
+      "stop" : 1626334370409,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1626334379909,
+      "stop" : 1626334382288,
+      "duration" : 2379
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "postconditions",
+    "time" : {
+      "start" : 1626334399836,
+      "stop" : 1626334399837,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "logistika.test_suite.apiAuthentication.TS_Login"
+  }, {
+    "name" : "testClass",
+    "value" : "logistika.test_suite.apiAuthentication.TS_Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC003_enterPasswordWithLengthLessThan8"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "logistika-api"
+  }, {
+    "name" : "subSuite",
+    "value" : "logistika.test_suite.apiAuthentication.TS_Login"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-ASB0HT8O"
+  }, {
+    "name" : "thread",
+    "value" : "16840@LAPTOP-ASB0HT8O.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "561f290ece062a05.json",
+  "parameterValues" : [ ]
+}

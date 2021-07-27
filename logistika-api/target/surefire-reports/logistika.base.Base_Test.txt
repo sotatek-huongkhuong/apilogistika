@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: logistika.base.Base_Test
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.192 s - in logistika.base.Base_Test

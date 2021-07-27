@@ -1,0 +1,138 @@
+{
+  "a1b5b111566355d4f6c9176590998eec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e8587f520274ba60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626334548350,
+        "stop" : 1626334550703,
+        "duration" : 2353
+      }
+    } ]
+  },
+  "f1a07ae7dad81dadf2d015b59225e7f0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd4bdca9c01aa4a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626334392063,
+        "stop" : 1626334394516,
+        "duration" : 2453
+      }
+    } ]
+  },
+  "8db6297f96cfe24d815e7e4e1663c403" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d33bc1af0897ae0c",
+      "status" : "failed",
+      "statusDetails" : "expected:<[[]password should not ...> but was:<[[Password must be 8 or more characters with at least one number, one symbol, password must be longer than or equal to 8 characters, ]password should not ...>",
+      "time" : {
+        "start" : 1626334483078,
+        "stop" : 1626334483452,
+        "duration" : 374
+      }
+    } ]
+  },
+  "febf75b4f9c3e74cc2bab07e667f04c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9fcd0d1c50b2967",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626334399518,
+        "stop" : 1626334399827,
+        "duration" : 309
+      }
+    } ]
+  },
+  "b6adbedf9690832bec41831fb4e6551" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52774b5b463fb0d6",
+      "status" : "failed",
+      "statusDetails" : "expected:<...hould not be empty, []password should not ...> but was:<...hould not be empty, [Password must be 8 or more characters with at least one number, one symbol, password must be longer than or equal to 8 characters, ]password should not ...>",
+      "time" : {
+        "start" : 1626334396779,
+        "stop" : 1626334397158,
+        "duration" : 379
+      }
+    } ]
+  },
+  "161df1f46052463b1541aaaf9e277f36" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "561f290ece062a05",
+      "status" : "failed",
+      "statusDetails" : "expected:<[Incorrect username or password.]> but was:<[[Password must be 8 or more characters with at least one number, one symbol, password must be longer than or equal to 8 characters]]>",
+      "time" : {
+        "start" : 1626334382290,
+        "stop" : 1626334384663,
+        "duration" : 2373
+      }
+    } ]
+  },
+  "1e5b2e2de868eb790601f75a4bf56832" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56caa100bf62d888",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626334387026,
+        "stop" : 1626334389581,
+        "duration" : 2555
+      }
+    } ]
+  }
+}

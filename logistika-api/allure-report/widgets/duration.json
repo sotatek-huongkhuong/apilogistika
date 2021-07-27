@@ -1,0 +1,71 @@
+[ {
+  "uid" : "e9fcd0d1c50b2967",
+  "name" : "TC007_enterInvalidEmail",
+  "time" : {
+    "start" : 1626334399518,
+    "stop" : 1626334399827,
+    "duration" : 309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "561f290ece062a05",
+  "name" : "TC003_enterPasswordWithLengthLessThan8",
+  "time" : {
+    "start" : 1626334382290,
+    "stop" : 1626334384663,
+    "duration" : 2373
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d33bc1af0897ae0c",
+  "name" : "TC001_doNotEnterPassword",
+  "time" : {
+    "start" : 1626334483078,
+    "stop" : 1626334483452,
+    "duration" : 374
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8587f520274ba60",
+  "name" : "TC002_enterWrongPassword",
+  "time" : {
+    "start" : 1626334548350,
+    "stop" : 1626334550703,
+    "duration" : 2353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd4bdca9c01aa4a7",
+  "name" : "TC005_enterDoNotExistEmail",
+  "time" : {
+    "start" : 1626334392063,
+    "stop" : 1626334394516,
+    "duration" : 2453
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52774b5b463fb0d6",
+  "name" : "TC006_doNotEnterEmailAndPassword",
+  "time" : {
+    "start" : 1626334396779,
+    "stop" : 1626334397158,
+    "duration" : 379
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "56caa100bf62d888",
+  "name" : "TC004_loginSuccessfully",
+  "time" : {
+    "start" : 1626334387026,
+    "stop" : 1626334389581,
+    "duration" : 2555
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

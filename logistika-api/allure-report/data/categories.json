@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected:<[Incorrect username or password.]> but was:<[[Password must be 8 or more characters with at least one number, one symbol, password must be longer than or equal to 8 characters]]>",
+      "children" : [ {
+        "name" : "TC003_enterPasswordWithLengthLessThan8",
+        "uid" : "561f290ece062a05",
+        "parentUid" : "7bbf0e39eacad1a5616709fd904eab31",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626334382290,
+          "stop" : 1626334384663,
+          "duration" : 2373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7bbf0e39eacad1a5616709fd904eab31"
+    }, {
+      "name" : "expected:<...hould not be empty, []password should not ...> but was:<...hould not be empty, [Password must be 8 or more characters with at least one number, one symbol, password must be longer than or equal to 8 characters, ]password should not ...>",
+      "children" : [ {
+        "name" : "TC006_doNotEnterEmailAndPassword",
+        "uid" : "52774b5b463fb0d6",
+        "parentUid" : "312e79089299cb92e6b8a22793285d2b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626334396779,
+          "stop" : 1626334397158,
+          "duration" : 379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "312e79089299cb92e6b8a22793285d2b"
+    }, {
+      "name" : "expected:<[[]password should not ...> but was:<[[Password must be 8 or more characters with at least one number, one symbol, password must be longer than or equal to 8 characters, ]password should not ...>",
+      "children" : [ {
+        "name" : "TC001_doNotEnterPassword",
+        "uid" : "d33bc1af0897ae0c",
+        "parentUid" : "09c3f00505dee9a8c77ed09b015bafc4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626334483078,
+          "stop" : 1626334483452,
+          "duration" : 374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09c3f00505dee9a8c77ed09b015bafc4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

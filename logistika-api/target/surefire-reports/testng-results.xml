@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-15T14:53:48 ICT" name="Surefire suite" finished-at="2021-07-15T14:53:48 ICT" duration-ms="17">
+    <groups>
+    </groups>
+    <test started-at="2021-07-15T14:53:48 ICT" name="Surefire test" finished-at="2021-07-15T14:53:48 ICT" duration-ms="17">
+      <class name="logistika.base.Base_Test">
+        <test-method is-config="true" signature="postconditions()[pri:0, instance:logistika.base.Base_Test@601cbd8c]" started-at="2021-07-15T14:53:48 ICT" name="postconditions" finished-at="2021-07-15T14:53:49 ICT" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postconditions -->
+      </class> <!-- logistika.base.Base_Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

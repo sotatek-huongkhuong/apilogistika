@@ -1,0 +1,172 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-ASB0HT8O",
+    "children" : [ {
+      "name" : "16840@LAPTOP-ASB0HT8O.main(1)",
+      "children" : [ {
+        "name" : "TC004_loginSuccessfully",
+        "uid" : "56caa100bf62d888",
+        "parentUid" : "6b87f879b444b6b9b19e5ec33fe5cb42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626334387026,
+          "stop" : 1626334389581,
+          "duration" : 2555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC007_enterInvalidEmail",
+        "uid" : "e9fcd0d1c50b2967",
+        "parentUid" : "6b87f879b444b6b9b19e5ec33fe5cb42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626334399518,
+          "stop" : 1626334399827,
+          "duration" : 309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC006_doNotEnterEmailAndPassword",
+        "uid" : "52774b5b463fb0d6",
+        "parentUid" : "6b87f879b444b6b9b19e5ec33fe5cb42",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626334396779,
+          "stop" : 1626334397158,
+          "duration" : 379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC001_doNotEnterPassword",
+        "uid" : "8b104314e5df5dd4",
+        "parentUid" : "6b87f879b444b6b9b19e5ec33fe5cb42",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626334374666,
+          "stop" : 1626334375043,
+          "duration" : 377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC003_enterPasswordWithLengthLessThan8",
+        "uid" : "561f290ece062a05",
+        "parentUid" : "6b87f879b444b6b9b19e5ec33fe5cb42",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626334382290,
+          "stop" : 1626334384663,
+          "duration" : 2373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC002_enterWrongPassword",
+        "uid" : "9bdb134f577177ab",
+        "parentUid" : "6b87f879b444b6b9b19e5ec33fe5cb42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626334377483,
+          "stop" : 1626334379904,
+          "duration" : 2421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC005_enterDoNotExistEmail",
+        "uid" : "fd4bdca9c01aa4a7",
+        "parentUid" : "6b87f879b444b6b9b19e5ec33fe5cb42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626334392063,
+          "stop" : 1626334394516,
+          "duration" : 2453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6b87f879b444b6b9b19e5ec33fe5cb42"
+    }, {
+      "name" : "13176@LAPTOP-ASB0HT8O.main(1)",
+      "children" : [ {
+        "name" : "TC002_enterWrongPassword",
+        "uid" : "e8587f520274ba60",
+        "parentUid" : "5bdfd015a2b0d91642e09c7f9c8ab572",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626334548350,
+          "stop" : 1626334550703,
+          "duration" : 2353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5bdfd015a2b0d91642e09c7f9c8ab572"
+    }, {
+      "name" : "15968@LAPTOP-ASB0HT8O.main(1)",
+      "children" : [ {
+        "name" : "TC001_doNotEnterPassword",
+        "uid" : "6e97c4f5eaf30ebc",
+        "parentUid" : "f9333fd82b3c6da4ce1a2a8e76eb5a07",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626331337499,
+          "stop" : 1626331337842,
+          "duration" : 343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f9333fd82b3c6da4ce1a2a8e76eb5a07"
+    }, {
+      "name" : "9636@LAPTOP-ASB0HT8O.main(1)",
+      "children" : [ {
+        "name" : "TC001_doNotEnterPassword",
+        "uid" : "d33bc1af0897ae0c",
+        "parentUid" : "7d467a9c8cfb69386b68673649fef05a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626334483078,
+          "stop" : 1626334483452,
+          "duration" : 374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7d467a9c8cfb69386b68673649fef05a"
+    }, {
+      "name" : "13820@LAPTOP-ASB0HT8O.main(1)",
+      "children" : [ {
+        "name" : "TC001_doNotEnterPassword",
+        "uid" : "271215d6c4a06539",
+        "parentUid" : "daaf4eeee735072de39b9b84381e6f50",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626332836180,
+          "stop" : 1626332836542,
+          "duration" : 362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "daaf4eeee735072de39b9b84381e6f50"
+    } ],
+    "uid" : "c19be4c00bcc33052548a4589b72f3fd"
+  } ]
+}
